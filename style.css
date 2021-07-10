@@ -38,11 +38,12 @@ header{
 .box-container{
   background-color: #008000;
   max-width: 700px;
+  padding: 20px;   /*つけ忘れ*/
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;     /*わからない*/
   justify-content: center;
-  border-top: solid 3px #0000ff;
+   /*border-top: solid 3px #0000ff; 要らなかった*/
 }
 
 .box-item{
